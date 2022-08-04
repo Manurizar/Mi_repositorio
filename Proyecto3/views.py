@@ -9,3 +9,6 @@ def template(self):
     documento = plantilla.render()
 
     return HttpResponse(documento)
+
+def hola():
+    print("Hola mundo")
